@@ -7,7 +7,7 @@
 # For usage help and available commands run `mamper.sh`.
 #================================================================================
 # Don't change this!
-version="1.3"
+version="1.4"
 #
 
 # Test run...
@@ -290,12 +290,12 @@ version_check()
 
       case $resp in
       y*|Y*)
-        open_command "https://github.com/virtualhost/mamper.sh"
+        open_command https://github.com/liucoj/Mamper
         exit
       ;;
 
       *)
-        /bin/echo "Okay. At your convenience, visit: https://github.com/liucoj/mamper.sh"
+        /bin/echo "Okay. At your convenience, visit: https://github.com/liucoj/Mamper"
         /bin/echo
       ;;
       esac
