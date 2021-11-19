@@ -7,13 +7,13 @@
 # For usage help and available commands run `mamper.sh`.
 #================================================================================
 # Don't change this!
-version="1.2"
+version="1.3"
 #
 
 # Test run...
 if [ `whoami` != 'root' -a "$1" -a "$1" != "--list" ]; then
   read -d '' prompt <<- EOT
-mamper.sh requires super-user privileges to work.
+mamper.sh requires super-user privileges to work only if you run Apache default installation on MacOS.
 Enter your password to continue...
 Password:
 EOT
@@ -295,7 +295,7 @@ version_check()
       ;;
 
       *)
-        /bin/echo "Okay. At your convenience, visit: https://github.com/virtualhost/mamper.sh"
+        /bin/echo "Okay. At your convenience, visit: https://github.com/liucoj/mamper.sh"
         /bin/echo
       ;;
       esac
