@@ -300,7 +300,7 @@ version_check()
       ;;
       esac
     else
-      /bin/echo "none found"
+      /bin/echo "Mamper is updated!"
     fi
   else
     /bin/echo "failed. Are you online?"
