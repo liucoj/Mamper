@@ -7,7 +7,7 @@
 # For usage help and available commands run `mamper.sh`.
 #================================================================================
 # Don't change this!
-version="1.0"
+version="1.2"
 #
 
 # Test run...
@@ -378,7 +378,8 @@ Usage: sudo mamper.sh <name> [<optional path>]
 
    Note that if "mamper.sh" is not in your PATH, you will have to write
    out the full path to it: eg. /Users/$USER/Desktop/mamper.sh <name>
-
+   
+Version: $version
 __EOT
   exit 1
 }
