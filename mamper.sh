@@ -1,6 +1,6 @@
 #!/bin/sh
 #================================================================================
-# MaMper 1.0
+# MaMper 1.0.0
 #
 # Apache virtual Host manager for MacOS
 #
